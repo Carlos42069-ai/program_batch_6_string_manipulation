@@ -5,3 +5,4 @@ suffix_input = input("Enter a suffix to check: ")
 check_suffix = ask_user[-len(suffix_input):] == suffix_input if len(suffix_input) <= len(ask_user) else False
 
 #Print if it is true or false.
+print("The result is: ", check_suffix)
