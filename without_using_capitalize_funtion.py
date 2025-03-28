@@ -5,3 +5,4 @@ if user_input:
     capitalized_result = user_input[0].upper() + user_input[1:].lower()
 
 #Print out the results.
+print("Capitalized string:", capitalized_result)
