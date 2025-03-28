@@ -1,12 +1,13 @@
 #Ask user for an input.
-ask_user = ("Enter a word: ")
+ask_user = input("Enter a word: ")
 #Code that lowers the characters without using lower().
 lowercase_output = ""
-for character in user_input:
+for character in ask_user:
     if 'A' <= character <= 'Z':
-        lowercase_result += chr(ord(character) + 32)
+        lowercase_output += chr(ord(character) + 32)
     else:
-        lowercase_result += character
+        lowercase_output += character
 
 
 #Print the output.
+print("The lowercase output is:", lowercase_output)
