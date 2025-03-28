@@ -5,3 +5,4 @@ width = int(input("Enter the total width: "))
 padding = max(0, width - len(user_input))
 padded_result = " " * (padding // 2) + user_input + " " * (padding - padding // 2)
 #Print out the result.
+print("The result is:", repr(padded_result))
