@@ -1,2 +1,10 @@
+#Ask user for input
+ask_user = input("Enter a word with spaces in the beginning: ")
+
 #Code that removes the spaces without using the lstrip function.
-#Ask user for input then print without the extra spaces.
+space = 0
+
+while space < len(ask_user) and ask_user[space] == ' '
+    space += 1
+
+#print the output.
