@@ -6,4 +6,4 @@ width = int(input("Enter the total width: "))
 padded_result = user_input + " " * (width - len(user_input)) if len(user_input) < width else user_input
 
 #Print out the result.
-
+print("The result is:", repr(padded_result))
