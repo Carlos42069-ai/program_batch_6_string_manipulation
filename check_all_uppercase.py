@@ -9,3 +9,4 @@ for character in ask_user:
         break
 
 #Print the result whether it's true or false.
+print("The result is:", all_upper_cases)
