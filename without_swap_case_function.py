@@ -4,3 +4,4 @@ user_input = input("Enter a word: ")
 swapped_result = "".join(chr(ord(c) ^ 32) if c.isalpha() else c for c in user_input)
 
 #Print out the results.
+print("Swapped case string:", swapped_result)
